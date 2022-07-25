@@ -73,10 +73,6 @@ h2 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button:hover, .button:focus {
-  color: #2196f3;
-  background-color: #ffffff;
-}
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -328,7 +324,7 @@ h2 {
 
 .checkbox:checked + .checkbox__icon {
   background-color: #2196f3;
-  background-image: url(../../img/icon-check.svg);
+  background-image: url(../images/iconcheck.svg);
   border: transparent;
   background-size: contain;
   background-origin: border-box;
@@ -358,8 +354,8 @@ h2 {
   margin-left: auto;
   max-width: 1600px;
   background-color: #2f303a;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/fon.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/fon.png);
 }
 
 .hero__container {
@@ -388,6 +384,9 @@ h2 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .advantages {
@@ -654,6 +653,17 @@ h2 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address__link:hover, .address__link:focus {
+  color: #2196f3;
+}
+
+.address__map {
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 9px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address__map:hover, .address__map:focus {
   color: #2196f3;
 }
 
