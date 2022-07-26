@@ -11,6 +11,11 @@
   
   .mail__field {
     position: relative;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
   }
   
   .mail__label {
@@ -23,6 +28,6 @@
 
   .mail__input:focus + .mail__label,
   .mail__input:not(:placeholder-shown) + .mail__label {
-    transform: translateY(60px) scale(1.2);
+    transform: translateY(-46px) scale(1.2);
 }
   

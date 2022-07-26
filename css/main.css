@@ -47,6 +47,15 @@ h2 {
   margin-bottom: 50px;
 }
 
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -70,6 +79,7 @@ h2 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -339,6 +349,7 @@ h2 {
   margin-right: 8px;
   margin-left: auto;
   background-color: transparent;
+  cursor: pointer;
 }
 .close-btn:focus, .close-btn:hover {
   fill: #2196f3;
@@ -712,6 +723,10 @@ h2 {
 
 .mail__field {
   position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 
 .mail__label {
@@ -727,15 +742,15 @@ h2 {
 }
 
 .mail__input:not(:-moz-placeholder-shown) + .mail__label {
-  transform: translateY(60px) scale(1.2);
+  transform: translateY(-46px) scale(1.2);
 }
 
 .mail__input:not(:-ms-input-placeholder) + .mail__label {
-  transform: translateY(60px) scale(1.2);
+  transform: translateY(-46px) scale(1.2);
 }
 
 .mail__input:focus + .mail__label,
 .mail__input:not(:placeholder-shown) + .mail__label {
-  -webkit-transform: translateY(60px) scale(1.2);
-          transform: translateY(60px) scale(1.2);
+  -webkit-transform: translateY(-46px) scale(1.2);
+          transform: translateY(-46px) scale(1.2);
 }/*# sourceMappingURL=main.css.map */

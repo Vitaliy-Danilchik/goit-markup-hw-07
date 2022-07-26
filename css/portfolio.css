@@ -48,6 +48,15 @@ h2 {
   margin-bottom: 50px;
 }
 
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -71,6 +80,7 @@ h2 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -327,6 +337,10 @@ h2 {
 
 .mail__field {
   position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 
 .mail__label {
@@ -342,17 +356,17 @@ h2 {
 }
 
 .mail__input:not(:-moz-placeholder-shown) + .mail__label {
-  transform: translateY(60px) scale(1.2);
+  transform: translateY(-46px) scale(1.2);
 }
 
 .mail__input:not(:-ms-input-placeholder) + .mail__label {
-  transform: translateY(60px) scale(1.2);
+  transform: translateY(-46px) scale(1.2);
 }
 
 .mail__input:focus + .mail__label,
 .mail__input:not(:placeholder-shown) + .mail__label {
-  -webkit-transform: translateY(60px) scale(1.2);
-          transform: translateY(60px) scale(1.2);
+  -webkit-transform: translateY(-46px) scale(1.2);
+          transform: translateY(-46px) scale(1.2);
 }
 
 .galerry {
@@ -389,6 +403,8 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* кнопки галереии */
@@ -408,6 +424,8 @@ h2 {
 .galerry__button:focus, .galerry__button:hover {
   color: #ffffff;
   background-color: #2196f3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Карты галереи */
@@ -471,8 +489,8 @@ h2 {
   height: 100%;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(101%);
+          transform: translateY(101%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
